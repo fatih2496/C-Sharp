@@ -11,7 +11,7 @@ namespace DataStructures.Tests
         public static void LengthWorksCorrectly([Random(0, 1000, 100)]int quantity)
         {
             // Arrange
-            var a = new SinglyLinkedList<int>();
+            var a = new SinglyLinkedList<int>();  
 
             // Act
             var r = TestContext.CurrentContext.Random;
